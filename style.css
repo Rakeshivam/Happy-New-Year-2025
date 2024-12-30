@@ -69,19 +69,19 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
+    width: 100%;
     color: gold;
     font-family: 'Russo One', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     z-index: 900; /* Set z-index higher to show above all other content */
     animation: glow 2s infinite alternate;
   }
   .my-name{
-    color: white;
+    color: #b7d3e8;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   @keyframes glow {
